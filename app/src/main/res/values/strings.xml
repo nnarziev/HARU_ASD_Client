@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- REST API Server URLs -->
+    <!--<string name="server_ip">165.246.43.162</string>&lt;!&ndash; MY PC IP: 165.246.43.162 &ndash;&gt;-->
+    <string name="server_ip">165.246.43.163:8765</string><!-- SR PC IP: 165.246.43.163 -->
+    <string name="url_user_register">http://%1$s/user/register</string>
+    <string name="url_user_login">http://%1$s/user/login</string>
+    <string name="url_heartbeat">http://%1$s/user/heartbeat_smartphone</string>
+    <string name="url_usr_stat">http://%1$s/user/get_user_stat</string>
+    <string name="url_sensor_data_submit">http://%1$s/sensor_data/submit</string>
+    <string name="url_usage_stats">http://%1$s/sensor_data/app_usage_stats</string>
+    <string name="url_ema_submit">http://%1$s/ema/submit</string>
+    <string name="get_mood_data">http://%1$s/get_mood_data/</string>
+    <string name="url_audio_submit">http://%1$s/submit_audio</string>
+    <string name="url_location_submit">http://%1$s/sensor_data/locations_submit</string>
+
+    <string name="app_name">하루 ASD</string>
+    <string name="ConnectionEstablishedMsg">Connection established</string>
+    <string name="ConnectionTerminateddMsg">Connection terminated</string>
+    <string name="ConnectionAlreadyExist">Already connected</string>
+    <string name="ConnectionDoesNotExists">Connection doesn\'t exist</string>
+    <string name="ConnectionFailure">Connection failure occurred</string>
+    <string name="NoPeersFound">No peers found</string>
+    <string name="buttonConnect">Connect Device</string>
+    <string name="buttonDisconnect">Disconnect Device</string>
+    <string name="buttonSend">Send</string>
+    <string name="dummy">Dummy</string>
+    <string name="status">Status for today:</string>
+    <string name="configurations">Configurations</string>
+    <string name="view_db_smartphone">View DB - Smartphone</string>
+    <string name="view_db_wearable">View DB - Wearable</string>
+    <string name="sm_watch">sm_watch</string>
+    <string name="sm_phone">sm_phone</string>
+    <string name="database">Database</string>
+    <string name="sensor_data">Sensor data will be displayed here…</string>
+    <string name="refresh_window">Refresh window</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="connected">Connected</string>
+    <string name="button_start_sensors">start sensors</string>
+    <string name="button_stop_sensors">stop sensors</string>
+    <string name="sign_in">로그인</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="not_a_member_yet">아직 회원이 아니신가요?</string>
+    <string name="now">now</string>
+    <string name="sign_up">회원가입</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="sign_up_now">회원가입</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="signing_in">Signing in…</string>
+
+    <string name="ema_explanation"><b>지난 설문시점부터 지금까지</b> 다음의 문제에 해당하는 정도를 1–10까지 나타내주세요.\n
+        * 1(전혀 해당하지 않음) ~ 10(매우 해당함)</string>
+
+    <string name="ema_question_1">1. 일 또는 여가 활동을 하는 데 <b>흥미나 즐거움을 느끼지 못함</b></string>
+    <string name="ema_question_2">2. <b>기분이 가라앉거나, 우울</b>하거나, <b>희망이 없음</b></string>
+    <string name="ema_question_3">3. 잠이 들거나 계속 <b>잠을 자는 것이 어려움</b>, 또는 <b>잠을 너무 많이 잠</b></string>
+    <string name="ema_question_4">4. <b>피곤</b>하다고 느끼거나 <b>기운이 거의 없음</b></string>
+    <string name="ema_question_5">5. <b>입맛이 없거나 과식</b>을 함</string>
+    <string name="ema_question_6">6. <b>자신을 부정적으로 봄 -</b> 혹은 자신이 실패자라고 느끼거나 자신 또는 가족을 실망시킴</string>
+    <string name="ema_question_7">7. 신문을 읽거나 텔레비전 보는 것과 같은 <b>일에 집중하는 것이 어려움</b></string>
+    <string name="ema_question_8">8. 다른 사람들이 주목할 정도로 <b>너무 느리게</b> 움직이거나 말을 함. 또는 반대로 <b>평상시보다 많이 움직여서, 너무 안절부절 못하거나 들떠 있음</b></string>
+    <string name="ema_question_9">9. 자신이 <b>죽는 것이 더 낫다고 생각</b>하거나 어떤 식으로든 <b>자신을 해칠 것이라고 생각함</b></string>
+
+    <string name="ema_done_text">설문을 모두 완료했습니다.\n‘제출’ 버튼을 눌러주세요. :)</string>
+
+    <string name="hour">시간</string>
+    <string name="minute">분</string>
+
+    <string name="submit">제출</string>
+
+    <string name="notif_channel_id">sast-notifs</string>
+    <string name="daily_notif_text">설문 시간입니다! 설문에 응해주세요 :)</string>
+    <string name="smartphone">smartphone</string>
+    <string name="smartwatch">smartwatch</string>
+    <string name="submit_to_server">Submit to Server</string>
+    <string name="uploading">Uploading…</string>
+    <string name="files_from_watch_transfer_status">Files coming from watch</string>
+    <string name="view_files">View files</string>
+    <string name="next">다음</string>
+
+    <string name="day_num">Day number: %1$d</string>
+    <string name="ema_responses">EMA responses: %1$d/6</string>
+    <string name="data_loaded">Data loaded:  %1$s MB</string>
+    <string name="last_active">Last active:  %1$s</string>
+
+
+    <string name="responses_delimiter">&#160;</string>
+    <string name="restart_data_collection">재시작 버튼</string>
+    <string name="set_locations">장소 설정</string>
+    <string name="stop_data_collection">Stop</string>
+    <string name="upload_sensor_data">Upload</string>
+    <string name="service_runnig">Service: Running :)</string>
+    <string name="service_stopped">Service: Not running :(</string>
+
+    <string name="file_count">Total files number: %1$d</string>
+
+    <string name="internet_on">Internet: Connected :)</string>
+    <string name="internet_off">Internet: Not connected :(</string>
+    <string name="update_stats">Update</string>
+    <string name="no_data">No data</string>
+    <string name="log_out">로그 아웃</string>
+    <string name="mood_history_graph">EMA: Mood history\n(x=EMA#, y=mood)</string>
+    <string name="set_home_location">집</string>
+    <string name="set_dorm_location">기숙사</string>
+    <string name="set_university_location">학교</string>
+    <string name="set_library_location">도서관</string>
+    <string name="set_additional_location">기타 장소</string>
+    <string name="title_activity_map">Map</string>
+    <string name="start_audio_recording">Start audio recording</string>
+    <string name="stop_audio_recording">Stop audio recording</string>
+
+
+</resources>

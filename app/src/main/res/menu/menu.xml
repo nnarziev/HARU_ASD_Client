@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_logout"
+        android:onClick="logoutClick"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btn_restart_service"
+        android:onClick="restartServiceClick"
+        android:title="@string/restart_data_collection"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btn_stop_service"
+        android:onClick="stopServiceClick"
+        android:title="stop service"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btn_upload_data"
+        android:onClick="uploadDataClick"
+        android:title="upload data"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btn_set_locations"
+        android:onClick="setLocationsClick"
+        android:title="@string/set_locations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/btn_start_audio"
+        android:onClick="startAudioClick"
+        android:title="@string/start_audio_recording"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/btn_stop_audio"
+        android:onClick="stopAudioClick"
+        android:title="@string/stop_audio_recording"
+        app:showAsAction="never"
+        android:visible="false"/>
+</menu>

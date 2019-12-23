@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".EMAActivity">
+
+    <LinearLayout
+        android:id="@+id/questions_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/explanation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_explanation"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_title_size" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ema_question_9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/question_txt_size" />
+
+        <SeekBar
+            android:id="@+id/scale_q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:max="9" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/seekbar_numbers"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="clickSubmit"
+            android:padding="15dp"
+            android:text="@string/submit"
+            android:textSize="@dimen/question_txt_title_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

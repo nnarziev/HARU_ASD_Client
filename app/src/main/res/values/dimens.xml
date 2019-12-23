@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="question_txt_title_size">18sp</dimen>
+    <dimen name="question_txt_size">16sp</dimen>
+
+    <dimen name="question_txt_big_size">20sp</dimen>
+
+    <dimen name="titles_txt_size">24sp</dimen>
+
+</resources>

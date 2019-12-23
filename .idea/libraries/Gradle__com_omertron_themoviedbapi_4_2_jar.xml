@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.omertron:themoviedbapi:4.2@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.omertron/themoviedbapi/4.2/8c2510024638a3cf1719571b333578671e5fa327/themoviedbapi-4.2.jar!/" />
+    </CLASSES>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.omertron/themoviedbapi/4.2/8915c5c4aa639a6da3286737f53f0498b7cef3b8/themoviedbapi-4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
