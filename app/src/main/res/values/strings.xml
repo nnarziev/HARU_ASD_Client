@@ -3,7 +3,7 @@
 
     <!-- REST API Server URLs -->
     <!--<string name="server_ip">165.246.43.162</string>&lt;!&ndash; MY PC IP: 165.246.43.162 &ndash;&gt;-->
-    <string name="server_ip">165.246.43.163:8765</string><!-- SR PC IP: 165.246.43.163 -->
+    <string name="server_ip">165.246.43.97:8765</string><!-- SR PC IP: 165.246.43.163 -->
     <string name="url_user_register">http://%1$s/user/register</string>
     <string name="url_user_login">http://%1$s/user/login</string>
     <string name="url_heartbeat">http://%1$s/user/heartbeat_smartphone</string>

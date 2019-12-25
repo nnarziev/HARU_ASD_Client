@@ -418,7 +418,6 @@ public class MainActivity extends Activity {
         });
     }
 
-
     public void setLocationsClick(MenuItem item) {
         Intent intent = new Intent(MainActivity.this, LocationsSettingActivity.class);
         startActivity(intent);
@@ -480,21 +479,29 @@ public class MainActivity extends Activity {
 
     public void logoutClick(MenuItem item) {
 
-        SharedPreferences.Editor editorLocation = locationPrefs.edit();
-        editorLocation.clear();
-        editorLocation.apply();
+        if (!Tools.isMainServiceRunning(this)) {
+            SharedPreferences.Editor editorLocation = locationPrefs.edit();
+            editorLocation.clear();
+            editorLocation.apply();
 
-        SharedPreferences.Editor editorLogin = loginPrefs.edit();
-        editorLogin.remove("username");
-        editorLogin.remove("password");
-        editorLogin.putBoolean("logged_in", false);
-        editorLogin.remove("ema_btn_make_visible");
-        editorLogin.clear();
-        editorLogin.apply();
+            SharedPreferences.Editor editorLogin = loginPrefs.edit();
+            editorLogin.remove("username");
+            editorLogin.remove("password");
+            editorLogin.putBoolean("logged_in", false);
+            editorLogin.remove("ema_btn_make_visible");
+            editorLogin.clear();
+            editorLogin.apply();
 
-        GeofenceHelper.removeAllGeofences(this);
-        stopService(customSensorsService);
-        finish();
+            GeofenceHelper.removeAllGeofences(this);
+            stopService(customSensorsService);
+
+            Tools.deleteAllFiles(getApplicationContext());    //removing all user data when user is logged out
+
+            finish();
+        }
+        else {
+            Toast.makeText(this, "Please, stop the Service first!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void viewFiles(View view) {

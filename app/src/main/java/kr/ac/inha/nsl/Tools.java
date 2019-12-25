@@ -51,6 +51,7 @@ import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileFilter;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
@@ -581,6 +582,20 @@ public class Tools {
             ema_order = 4;
         }
         return ema_order;
+    }
+
+    static void deleteAllFiles(Context con) {
+        File[] files = con.getFilesDir().listFiles(new FileFilter() {
+            @Override
+            public boolean accept(File file) {
+                return (file.getPath().endsWith(".csv"));
+            }
+        });
+
+        if (files.length > 0) {
+            for (File file : files)
+                file.delete();
+        }
     }
 }
 
